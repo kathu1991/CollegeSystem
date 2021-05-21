@@ -26,7 +26,7 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 
-public class StateList extends AppCompatActivity {
+public class StateListActivity extends AppCompatActivity {
     private JSONArray stateArr;
     private int pageNum;
     private String totalRec = "";
@@ -46,7 +46,7 @@ public class StateList extends AppCompatActivity {
             actionBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(StateList.this, StateAddActivity.class);
+                    Intent intent = new Intent(StateListActivity.this, StateAddActivity.class);
                     startActivityForResult(intent, 1);
                 }
             });
