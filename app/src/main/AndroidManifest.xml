@@ -19,7 +19,7 @@
 
         </activity>
         <activity
-            android:name=".activity.State.StateList"
+            android:name=".activity.State.StateListActivity"
             android:label="State">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
